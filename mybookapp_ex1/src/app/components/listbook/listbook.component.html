@@ -1,0 +1,20 @@
+<p>listbook works!</p>
+<p>List of all registered Book</p>
+<table>
+    <thead>
+    <tr>
+      <th>bookId</th>
+      <th>bookName</th>
+      <th>bookPrice </th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(book of bookarr;track book){
+        <tr>
+          <td>{{book.bkid}}</td>
+          <td>{{book.bkname}}</td>
+          <td>{{book.bkprice}}</td>
+        </tr>
+      }
+    </tbody>
+  </table>

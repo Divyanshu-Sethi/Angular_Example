@@ -1,0 +1,24 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "bkname": "Learn Angular",
+      "bkprice": "70"
+    },
+    {
+      "id": 2,
+      "bkname": "Learn React ",
+      "bkprice": 800
+    },
+    {
+      "id": 45,
+      "bkname": "Amari Soul",
+      "bkprice": 737
+    },
+    {
+      "id": 3,
+      "bkname": "Learn Java",
+      "bkprice": 7800
+    }
+  ]
+}
